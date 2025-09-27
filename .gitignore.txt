@@ -1,0 +1,66 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+*.pkl
+*.joblib
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+# Checkpoint directories
+.ipynb_checkpoints
+# Notebook temp files
+*.nbconvert.ipynb
+
+# -----------------------------
+# Data & Models
+# -----------------------------
+# Raw or processed data
+data/raw/*
+data/processed/*
+# Allow keeping folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Saved models
+models/*
+!models/.gitkeep
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+wandb/
+mlruns/
+lightning_logs/
+
+# -----------------------------
+# IDEs / Editors
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+.DS_Store
+Thumbs.db
